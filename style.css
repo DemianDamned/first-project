@@ -9,13 +9,14 @@ body{
 	flex-direction: column;
 	justify-content: center;
 
-	min-width: 1440px;
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*header*/
 header{
 	min-width: 1440px;
-	margin-left: auto;
-	margin-right: auto;
+	
 }
 .header-top{
 	display: flex;
@@ -125,14 +126,8 @@ header{
 .relative-image{
 	position: absolute;
 }
-/*Не получается сделать эту гребанную линию как на исходнике*/
-.relative-image::before{
-	content: "";
-	height: 3px;
-	width: 884px;
-	background-color: red;
-	margin-bottom: 72px;
-}
+
+
 .img{
 	position: relative;
 }
@@ -156,9 +151,19 @@ main{
 	align-items: center;
 	flex-direction: column;
 }
+.heading-main::before{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 884px;
+	background-color: #E4E4E4;
+	margin-bottom: 72px;
+}
+
 main h1{
 	font-size: 44px;
 	margin-bottom: 59px;
+	text-align: center;
 }
 .block1,
 .block2,
