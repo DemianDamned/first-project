@@ -126,8 +126,8 @@ header{
 	justify-content: center;
 	align-items: center;
 
-	width: 548px;
-	height: 640px;
+	max-width: 548px;
+	max-height: 640px;
 
 	position: absolute;	
 }
