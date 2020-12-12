@@ -118,6 +118,7 @@ header{
 .button:hover{
 	background-color: #FA4A0C;
 }
+/*
 .header-bottom{
 	margin-bottom: 620px;
 }
@@ -144,7 +145,8 @@ header{
 	top: -60px;
 	left: 710px;
 	z-index: 1;
-}
+}*/
+
 /*header end*/
 /* main */
 main{
