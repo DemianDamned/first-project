@@ -84,7 +84,7 @@ margin-right: 94px;
 	display: flex;
 	width: 506px;
 	justify-content: center;
-	z-index: 2;
+	z-index: 10;
 }
 .button-block{
 	display: flex;
